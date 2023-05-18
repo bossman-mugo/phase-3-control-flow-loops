@@ -1,6 +1,6 @@
 def happy_new_year
   countdown = 10;
-  while countdown > 1
+  while countdown >= 1
     puts countdown
     countdown -= 1;
   end
@@ -20,8 +20,9 @@ def fizzbuzz(num)
   end
 end
 
+
 def fizzbuzz_printer
-  (1...100).each do |num|
+  (1..100).each do |num|
     puts fizzbuzz(num)
   end
   
